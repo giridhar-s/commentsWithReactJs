@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-details-container {
+  /* display: flex; */
+  list-style: none;
+  margin-top: 22px;
+  border-bottom: 2px solid #cbd2d9;
+}
+
+.section-1 {
+  display: flex;
+}
+.username {
+  height: 35px;
+  width: 35px;
+  padding-top: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+.name-and-time {
+  display: flex;
+}
+.logo {
+  margin-right: 20px;
+}
+.time {
+  margin-left: 20px;
+  color: #94a3b8;
+  margin-top: 3px;
+  font-size: 14px;
+}
+.comment {
+  margin-top: 10px;
+  color: #7e858e;
+  word-wrap: break-word;
+}
+.username-logo {
+  font-weight: 600;
+  font-size: 17px;
+  color: #1e293b;
+}
+.section-2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px;
+  align-items: center;
+  width: 100%;
+}
+.like-btn {
+  /* margin-right: 300px; */
+  display: flex;
+  border: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+.delete-logo {
+  width: 27px;
+  height: 27px;
+  margin-bottom: 5px;
+  margin-right: 16px;
+}
+.like-name {
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.like-color {
+  color: #0ea5e9;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: 575px) {
+  .comment-details-container {
+    /* display: flex; */
+    list-style: none;
+    margin-top: 22px;
+    border-bottom: 2px solid #cbd2d9;
+  }
+  .name-and-time {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+  .logo {
+    margin-right: 10px;
+  }
+  .time {
+    margin-left: 10px;
+    color: #94a3b8;
+    margin-top: 3px;
+    font-size: 14px;
+  }
+  .comment {
+    word-wrap: break-word;
+  }
+  .comment-box {
+    width: 300px;
+    padding: 5px 12px 5px 0px;
+  }
+}
